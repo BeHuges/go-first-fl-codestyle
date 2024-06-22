@@ -133,3 +133,4 @@ func randint(min, max int) int {
 	return rand.Intn(max-min) + min
 }
 
+//разбираюсь с гитом
