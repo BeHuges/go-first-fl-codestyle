@@ -48,7 +48,7 @@ func special(charName, charClass string) string {
 }
 
 // здесь обратите внимание на имена параметров
-func start_training(charName, charClass string) string {
+func startTraining(charName, charClass string) string {
 	if charClass == "warrior" {
 		fmt.Printf("%s, ты Воитель - отличный боец ближнего боя.\n", charName)
 	}
@@ -126,7 +126,7 @@ func main() {
 
 	charClass := choiseCharClass()
 
-	fmt.Println(start_training(charName, charClass))
+	fmt.Println(startTraining(charName, charClass))
 }
 
 func randint(min, max int) int {
